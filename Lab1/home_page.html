@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Website Title</title>
+    <style>
+        *{
+            text-decoration: none;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #444;
+            padding: 10px;
+        }
+
+        a{
+            color: #f58c8c;
+        }
+        section {
+            padding: 20px;
+        }
+
+        .login-section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 200px;
+        }
+
+        .login-form {
+            max-width: 300px;
+            width: 100%;
+            padding: 20px;
+            background-color: #f4f4f4;
+            border-radius: 5px;
+        }
+
+        marquee {
+            font-size: 18px;
+            color: #333;
+            white-space: nowrap;
+            overflow: hidden;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Basic HTML Page</h1>
+    </header>
+
+    <nav>
+        <!-- Add your navigation links here -->
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <section>
+        <h2>Main Content Area</h2>
+        <!-- Add your main content here -->
+    </section>
+
+    <section class="login-section">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form action="" method="post">
+                <label for="username">Username: </label>
+                <input type="text" name="username" id="username" placeholder="username">
+                <label for="password">password: </label>
+                <input type="password" name="password" id="">
+                <button >Login</button>
+            </form>
+            <!-- Add your login form here -->
+        </div>
+    </section>
+
+    <section>
+        <h2>Latest News</h2>
+        <marquee behavior="scroll" direction="left" scrollamount="5">
+            <!-- Add your news content here -->
+            News 1 | News 2 | News 3 | News 4 | News 5
+        </marquee>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Your Website Name. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
