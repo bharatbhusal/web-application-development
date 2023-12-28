@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Webpage</title>
+    <!-- Include your script file here -->
+    <script src="script.js"></script>
+    <style>
+      button {
+        padding: 0;
+        height: 100px;
+        width: 100px;
+        margin: 0 0.3rem;
+        /* overflow: hidden; */
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+      }
+      #large-view {
+        border: 1px solid red;
+        padding: 1rem;
+      }
+      .buttons {
+        width: 500px;
+        padding: 1rem;
+        border: 1px solid green;
+        display: flex;
+        overflow: hidden;
+        /* scroll-behavior: smooth; */
+        overflow-x: scroll;
+      }
+
+      .buttons img {
+        width: 100px;
+        height: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Image Gallery</h1>
+      <!-- Your HTML content goes here -->
+      <div id="large-view">
+        <img src="a.png" height="500px" width="500px" alt="" srcset="" />
+      </div>
+
+      <!-- Example button to trigger the selectImage function -->
+      <div class="buttons">
+        <button onclick="selectImage('a.png')">
+          <img src="a.png" height="100px" alt="" srcset="" />
+        </button>
+
+        <button onclick="selectImage('b.png')">
+          <img src="b.png" height="100px" alt="" srcset="" />
+        </button>
+
+        <button onclick="selectImage('c.png')">
+          <img src="c.png" height="100px" alt="" srcset="" />
+        </button>
+
+        <button onclick="selectImage('d.png')">
+          <img src="d.png" height="100px" alt="" srcset="" />
+        </button>
+
+        <button onclick="selectImage('e.png')">
+          <img src="e.png" height="100px" alt="" srcset="" />
+        </button>
+
+        <button onclick="selectImage('e.png')">
+          <img src="e.png" height="100px" alt="" srcset="" />
+        </button>
+
+        <button onclick="selectImage('f.jpeg')">
+          <img src="f.jpeg" height="100px" alt="" srcset="" />
+        </button>
+      </div>
+
+      <!-- The container for the large view -->
+    </div>
+  </body>
+</html>
