@@ -1,0 +1,33 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+#registration-form,
+#login-form {
+  max-width: 400px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.captcha {
+  /* Add your captcha styling here */
+}
+
+#error-message {
+  margin-top: 10px;
+}
