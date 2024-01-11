@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<userlist>
+    <user>
+        <userId>001</userId>
+        <username>johndoe</username>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <email>john.doe@example.com</email>
+    </user>
+    <user>
+        <userId>002</userId>
+        <username>janesmith</username>
+        <firstName>Jane</firstName>
+        <lastName>Smith</lastName>
+        <email>jane.smith@example.com</email>
+    </user>
+    <user>
+        <userId>003</userId>
+        <username>michaelj</username>
+        <firstName>Michael</firstName>
+        <lastName>Johnson</lastName>
+        <email>michael.j@example.com</email>
+    </user>
+    <user>
+        <userId>004</userId>
+        <username>amyw</username>
+        <firstName>Amy</firstName>
+        <lastName>White</lastName>
+        <email>amy.white@example.com</email>
+    </user>
+    <user>
+        <userId>005</userId>
+        <username>robertd</username>
+        <firstName>Robert</firstName>
+        <lastName>Davis</lastName>
+        <email>robert.d@example.com</email>
+    </user>
+</userlist>

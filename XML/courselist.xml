@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<courselist >
+    <course>
+        <courseId>1</courseId>
+        <courseName>Introduction to Programming</courseName>
+        <instructor>John Doe</instructor>
+        <schedule>Mon, Wed, Fri 10:00 AM - 11:30 AM</schedule>
+    </course>
+    <course>
+        <courseId>2</courseId>
+        <courseName>Data Structures and Algorithms</courseName>
+        <instructor>Jane Smith</instructor>
+        <schedule>Tue, Thu 2:00 PM - 3:30 PM</schedule>
+    </course>
+    <course>
+        <courseId>3</courseId>
+        <courseName>Web Development Fundamentals</courseName>
+        <instructor>Michael Johnson</instructor>
+        <schedule>Mon, Wed 1:00 PM - 2:30 PM</schedule>
+    </course>
+    <course>
+        <courseId>4</courseId>
+        <courseName>Database Management Systems</courseName>
+        <instructor>Amy White</instructor>
+        <schedule>Tue, Fri 10:30 AM - 12:00 PM</schedule>
+    </course>
+    <course>
+        <courseId>5</courseId>
+        <courseName>Software Testing Techniques</courseName>
+        <instructor>Robert Davis</instructor>
+        <schedule>Thu 3:00 PM - 4:30 PM</schedule>
+    </course>
+</courselist>

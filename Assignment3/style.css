@@ -23,11 +23,6 @@ input {
   margin-bottom: 10px;
   box-sizing: border-box;
 }
-
-.captcha {
-  /* Add your captcha styling here */
-}
-
 #error-message {
   margin-top: 10px;
 }

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<employeelist>
+    <employee>
+        <employeeId>101</employeeId>
+        <firstName>John</firstName>
+        <lastName>Doe</lastName>
+        <position>Software Engineer</position>
+        <department>Engineering</department>
+    </employee>
+    <employee>
+        <employeeId>102</employeeId>
+        <firstName>Jane</firstName>
+        <lastName>Smith</lastName>
+        <position>HR Specialist</position>
+        <department>Human Resources</department>
+    </employee>
+    <employee>
+        <employeeId>103</employeeId>
+        <firstName>Michael</firstName>
+        <lastName>Johnson</lastName>
+        <position>Web Developer</position>
+        <department>IT</department>
+    </employee>
+    <employee>
+        <employeeId>104</employeeId>
+        <firstName>Amy</firstName>
+        <lastName>White</lastName>
+        <position>Database Administrator</position>
+        <department>IT</department>
+    </employee>
+    <employee>
+        <employeeId>105</employeeId>
+        <firstName>Robert</firstName>
+        <lastName>Davis</lastName>
+        <position>Quality Assurance Analyst</position>
+        <department>Quality Assurance</department>
+    </employee>
+</employeelist>
