@@ -4,63 +4,16 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Image Gallery</title>
-		<!-- Include your script file here -->
 		<script src="script.js"></script>
-		<style>
-			   .banner{
-			     display: flex;
-			        align-items: center;
-
-			   }
-			      .scroll-btn{
-			       height: 130px;
-			          width: 50px;
-			             background-color: greenyellow;
-			      }
-			button {
-			  padding: 0;
-			  height: 100px;
-			  width: 100px;
-			  margin: 0 0.3rem;
-			  /* overflow: hidden; */
-			}
-
-			.container {
-			  display: flex;
-			  flex-direction: column;
-			  justify-content: center;
-			  align-items: center;
-			  gap: 1rem;
-			}
-			#large-view {
-			  border: 1px solid red;
-			  padding: 1rem;
-			}
-			.buttons {
-			  width: 400px;
-			  padding: 1rem;
-			  border: 1px solid green;
-			  display: flex;
-			  overflow: hidden;
-			  /* scroll-behavior: smooth; */
-			  overflow-x: scroll;
-			}
-
-			.buttons img {
-			  width: 100px;
-			  height: 100px;
-			}
-		</style>
+		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
 		<div class="container">
 			<h1>Image Gallery</h1>
-			<!-- Your HTML content goes here -->
 			<div id="large-view">
 				<img src="a.png" height="500px" width="500px" alt="" srcset="" />
 			</div>
 			<div class="banner">
-				<!-- Example button to trigger the selectImage function -->
 				<button class="scroll-btn" onclick="leftScroll()">Left</button>
 				<div class="buttons">
 					<button onclick="selectImage('a.png')">
@@ -88,7 +41,6 @@
 					</button>
 				</div>
 				<button class="scroll-btn" onclick="rightScroll()">Right</button>
-				<!-- The container for the large view -->
 			</div>
 		</div>
 	</body>
