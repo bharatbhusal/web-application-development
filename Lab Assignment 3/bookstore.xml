@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xslt" href="bookstore.xslt"?>
+<books>
+    <book>
+        <title>The Great Gatsby</title>
+        <author>F. Scott Fitzgerald</author>
+        <genre>Fiction</genre>
+        <year>1925</year>
+    </book>
+    <book>
+        <title>To Kill a Mockingbird</title>
+        <author>Harper Lee</author>
+        <genre>Fiction</genre>
+        <year>1960</year>
+    </book>
+    <book>
+        <title>1984</title>
+        <author>George Orwell</author>
+        <genre>Dystopian</genre>
+        <year>1949</year>
+    </book>
+    <book>
+        <title>The Catcher in the Rye</title>
+        <author>J.D. Salinger</author>
+        <genre>Coming-of-age</genre>
+        <year>1951</year>
+    </book>
+    <book>
+        <title>Animal Farm</title>
+        <author>George Orwell</author>
+        <genre>Satire</genre>
+        <year>1945</year>
+    </book>
+    <book>
+        <title>Lord of the Flies</title>
+        <author>William Golding</author>
+        <genre>Allegory</genre>
+        <year>1954</year>
+    </book>
+    <book>
+        <title>The Hobbit</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <year>1937</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Philosopher's Stone</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>1997</year>
+    </book>
+    <book>
+        <title>The Lord of the Rings</title>
+        <author>J.R.R. Tolkien</author>
+        <genre>Fantasy</genre>
+        <year>1954</year>
+    </book>
+    <book>
+        <title>The Da Vinci Code</title>
+        <author>Dan Brown</author>
+        <genre>Thriller</genre>
+        <year>2003</year>
+    </book>
+    <book>
+        <title>Don Quixote</title>
+        <author>Miguel de Cervantes</author>
+        <genre>Adventure</genre>
+        <year>1605</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Chamber of Secrets</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>1998</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Prisoner of Azkaban</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>1999</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Goblet of Fire</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>2000</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Order of the Phoenix</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>2003</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Half-Blood Prince</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>2005</year>
+    </book>
+    <book>
+        <title>Harry Potter and the Deathly Hallows</title>
+        <author>J.K. Rowling</author>
+        <genre>Fantasy</genre>
+        <year>2007</year>
+    </book>
+    <book>
+        <title>The Hunger Games</title>
+        <author>Suzanne Collins</author>
+        <genre>Science Fiction</genre>
+        <year>2008</year>
+    </book>
+    <book>
+        <title>Catch-22</title>
+        <author>Joseph Heller</author>
+        <genre>War</genre>
+        <year>1961</year>
+    </book>
+    <book>
+        <title>The Road</title>
+        <author>Cormac McCarthy</author>
+        <genre>Post-apocalyptic</genre>
+        <year>2006</year>
+    </book>
+</books>

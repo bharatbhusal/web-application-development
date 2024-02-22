@@ -1,0 +1,124 @@
+{
+    "books": {
+        "book_1": {
+            "title": "The Great Gatsby",
+            "author": "F. Scott Fitzgerald",
+            "genre": "Fiction",
+            "year": "1925"
+        },
+        "book_2": {
+            "title": "To Kill a Mockingbird",
+            "author": "Harper Lee",
+            "genre": "Fiction",
+            "year": "1960"
+        },
+        "book_3": {
+            "title": "1984",
+            "author": "George Orwell",
+            "genre": "Dystopian",
+            "year": "1949"
+        },
+        "book_4": {
+            "title": "The Catcher in the Rye",
+            "author": "J.D. Salinger",
+            "genre": "Coming-of-age",
+            "year": "1951"
+        },
+        "book_5": {
+            "title": "Animal Farm",
+            "author": "George Orwell",
+            "genre": "Satire",
+            "year": "1945"
+        },
+        "book_6": {
+            "title": "Lord of the Flies",
+            "author": "William Golding",
+            "genre": "Allegory",
+            "year": "1954"
+        },
+        "book_7": {
+            "title": "The Hobbit",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "year": "1937"
+        },
+        "book_8": {
+            "title": "Harry Potter and the Philosopher's Stone",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "1997"
+        },
+        "book_9": {
+            "title": "The Lord of the Rings",
+            "author": "J.R.R. Tolkien",
+            "genre": "Fantasy",
+            "year": "1954"
+        },
+        "book_10": {
+            "title": "The Da Vinci Code",
+            "author": "Dan Brown",
+            "genre": "Thriller",
+            "year": "2003"
+        },
+        "book_11": {
+            "title": "Don Quixote",
+            "author": "Miguel de Cervantes",
+            "genre": "Adventure",
+            "year": "1605"
+        },
+        "book_12": {
+            "title": "Harry Potter and the Chamber of Secrets",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "1998"
+        },
+        "book_13": {
+            "title": "Harry Potter and the Prisoner of Azkaban",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "1999"
+        },
+        "book_14": {
+            "title": "Harry Potter and the Goblet of Fire",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "2000"
+        },
+        "book_15": {
+            "title": "Harry Potter and the Order of the Phoenix",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "2003"
+        },
+        "book_16": {
+            "title": "Harry Potter and the Half-Blood Prince",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "2005"
+        },
+        "book_17": {
+            "title": "Harry Potter and the Deathly Hallows",
+            "author": "J.K. Rowling",
+            "genre": "Fantasy",
+            "year": "2007"
+        },
+        "book_18": {
+            "title": "The Hunger Games",
+            "author": "Suzanne Collins",
+            "genre": "Science Fiction",
+            "year": "2008"
+        },
+        "book_19": {
+            "title": "Catch-22",
+            "author": "Joseph Heller",
+            "genre": "War",
+            "year": "1961"
+        },
+        "book_20": {
+            "title": "The Road",
+            "author": "Cormac McCarthy",
+            "genre": "Post-apocalyptic",
+            "year": "2006"
+        }
+    }
+}
