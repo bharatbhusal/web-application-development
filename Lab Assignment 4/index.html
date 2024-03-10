@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JSON to HTML Table</title>
+		<style>
+			table {
+			    border-collapse: collapse;
+			    width: 100%;
+			}
+
+			th, td {
+			    border: 1px solid #dddddd;
+			    text-align: left;
+			    padding: 8px;
+			}
+
+			th {
+			    background-color: #f2f2f2;
+			}
+		</style>
+	</head>
+	<body>
+		<table id="jsonTable">
+			<thead>
+				<tr>
+					<th>Key</th>
+					<th>Value</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+
+		<script>
+			// Example JSON object
+			var jsonObject = {
+			    "name": "Bharat Bhusal",
+			    "age": 22,
+			    "city": "Karnali Surkhet",
+			    "country": "Nepal"
+			};
+
+			// Function to convert JSON to HTML table
+			function jsonToTable(json) {
+			    var table = document.getElementById("jsonTable").getElementsByTagName('tbody')[0];
+			    for (var key in json) {
+			        if (json.hasOwnProperty(key)) {
+			            var row = table.insertRow();
+			            var cell1 = row.insertCell(0);
+			            var cell2 = row.insertCell(1);
+			            cell1.innerHTML = key;
+			            cell2.innerHTML = json[key];
+			        }
+			    }
+			}
+
+			// Display JSON as HTML table
+			jsonToTable(jsonObject);
+		</script>
+	</body>
+</html>
