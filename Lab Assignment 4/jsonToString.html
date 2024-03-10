@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>JSON Array to String</title>
+	</head>
+	<body>
+		<div id="jsonString"></div>
+
+		<script>
+			// Example JSON array
+			var jsonArray = [
+			    {"name": "John Doe", "age": 30, "city": "New York"},
+			    {"name": "Jane Smith", "age": 25, "city": "Los Angeles"},
+			    {"name": "Mike Johnson", "age": 35, "city": "Chicago"}
+			];
+
+			// Convert JSON array to string using JSON.stringify()
+			var jsonString = JSON.stringify(jsonArray);
+
+			// Display the JSON string
+			document.getElementById("jsonString").innerText = jsonString;
+		</script>
+	</body>
+</html>
