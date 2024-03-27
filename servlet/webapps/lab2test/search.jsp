@@ -7,7 +7,7 @@
 </head>
 <body>
 
-    <h1>Wanna search something , <%= session.getAttribute("username") %>??</h1>
+    <h1>Wanna search something , <%= session.getAttribute("username") %> ??</h1>
 
     <form action="search.jsp" method="get">
         <label for="searchInput">Search Query:</label>
