@@ -1,0 +1,30 @@
+version: "3.8"
+name: "servlet"
+services:
+ db:
+  image: mysql:latest
+  restart: always
+  environment:
+   MYSQL_ROOT_PASSWORD: root
+   MYSQL_DATABASE: signIn_signUp
+  volumes:
+   - ./mysql-data:/var/lib/mysql
+  ports:
+   - "3306:3306"
+
+ phpmyadmin:
+  image: phpmyadmin/phpmyadmin:latest
+  restart: always
+  environment:
+   PMA_HOST: db
+   PMA_PORT: 3306
+   MYSQL_ROOT_PASSWORD: root
+  ports:
+   - "8081:80"
+
+ tomcat:
+  image: tomcat:9.0.86-jdk8-corretto-al2
+  ports:
+   - "8080:8080"
+  volumes:
+   - ./webapps:/usr/local/tomcat/webapps
